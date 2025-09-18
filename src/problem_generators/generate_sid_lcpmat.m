@@ -12,7 +12,8 @@ for each specified size and density level. Each generated problem is saved as
 a .mat file in tempdir.
 %}
     rng("default");
-    for d = 1:10
+    densities = 1:10; % Density levels from 0.1 to 1.0
+    for d = densities
         for t=1:T
             rc = -1 + 2*rand(n,1);
             M = sprandsym(n,d/10,rc);

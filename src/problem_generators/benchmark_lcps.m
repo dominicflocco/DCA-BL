@@ -1,4 +1,4 @@
-function benchmark_lcps(tempdir, sizes)
+function benchmark_lcps(tempdir, sizes, pb_num)
 %{
 Generates and saves the LCP instances from the literature.
 
@@ -10,7 +10,7 @@ The function creates several types of LCP matrices (M) and vectors (q)
 for each specified size, according to the problem number (pb_num).
 Each generated problem is saved as a .mat file in tempdir.
 %}
-    pb_num = 7;
+
     for n = sizes
         display([num2str(n)]);
         
