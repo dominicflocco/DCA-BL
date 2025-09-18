@@ -1,6 +1,6 @@
 # Portfolio Optimization Problem Instances
 
-This directory contains multi-portofolio equilibrium instances of Nonlinear Complementarity Problems (NCPs) derived from a financial market model. The overall NCP instance is defined by a set of nonlinear functions \( F \) and is composed of the data defining the Karush-Kuhn-Tucker (KKT) conditions of each agent's chance-constrained optimization problem. The mathematical details of the model are described in the [online supplement](<fill-url>). Importantly, the size of the problem dimension is a function of the number of firms, assets and portofolios considered in the model.
+This directory contains multi-portofolio equilibrium instances of Nonlinear Complementarity Problems (NCPs) derived from a financial market model. The overall NCP instance is composed of the data defining the Karush-Kuhn-Tucker (KKT) conditions of each agent's chance-constrained optimization problem. The mathematical details of the model are described in the [online supplement](<fill-url>). Importantly, the size of the problem dimension is a function of the number of firms, assets and portofolios considered in the model.
 
 Instances are randomized by sampling monthly return data from the S&P 500 from January 2012 to November 2021. The data are available in `Monthly Returns.csv`, which contains the monthly returns of 500 assets over this period. The source file `src/portfolio_opt/multiPortfolioDataReader.py` contains the necessary functions to read the data and generate the instances. 
 

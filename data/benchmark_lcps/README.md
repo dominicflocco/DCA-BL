@@ -1,6 +1,6 @@
 # Benchmark LCP Instances from the Literature
 
-This directory contains benchmark instances of Linear Complementarity Problems (LCPs) taken from the literature. Each instance is defined by a matrix \( M \) and a vector \( q \), and is stored in a separate `.mat` file. Each of the instances can be generated for any specified size \(n \). The structure of the matrix \( M\) and the vector \(q\) are described in the [online supplement](<fill-url>) to the paper.
+This directory contains benchmark instances of Linear Complementarity Problems (LCPs) taken from the literature. Each instance is defined by a matrix $M$ and a vector $q$, and is stored in a separate `.mat` file. Each of the instances can be generated for any specified size $n$. The structure of the matrix $M$ and the vector $q$ are described in the [online supplement](<fill-url>) to the paper.
 
 Due to the size of some data files, not all data files used in the experiments only the instances of size $n = 100$ are included in this repository. However, the problem generator used to generate the instances can be found in the `src/problem_generators` subdirectory, and can be used to generate additional problem instances as needed. Instructions for generating additional instances are provided below.
 
