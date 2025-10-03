@@ -1,40 +1,7 @@
 # A Heuristic for Complementarity Problems Using Difference of Convex Functions
-
-This archive is distributed in association with the [INFORMS Journal on
-Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
-
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
 [A Heuristic for Complementarity Problems Using Difference of Convex Functions](https://doi.org/10.1287/ijoc.2024.0822) by S. Gabriel, D. Flocco, T. Boomsma, M. Schmidt and M. Lejeune. 
-The snapshot is based on 
-[this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
-in the development repository. 
-
-**Important: This code is being developed on an on-going basis at 
-https://github.com/dominicflocco/DCA-BL. Please go there if you would like to
-get a more recent version or would like support**
-
-## Cite
-
-To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
-
-https://doi.org/10.1287/ijoc.2024.0822
-
-https://doi.org/10.1287/ijoc.2024.0822.cd
-
-Below is the BibTex for citing this snapshot of the repository.
-
-```
-@misc{DCABL,
-  author =        {Gabriel, Steven and Flocco, Dominic and Boomsma, Trine and Schmidt, Martin and Lejuene, Miguel},
-  publisher =     {INFORMS Journal on Computing},
-  title =         {A Heuristic for Complementarity Problems Using Difference of Convex Functions},
-  year =          {2025},
-  doi =           {10.1287/ijoc.2024.0822.cd},
-  url =           {https://github.com/INFORMSJoC/2024.0822},
-  note =          {Available for download at https://github.com/INFORMSJoC/2024.0822},
-}  
-```
 
 ## Description
 
