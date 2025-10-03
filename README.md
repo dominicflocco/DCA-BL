@@ -62,10 +62,6 @@ python scripts/portfolio_opt/solve_multiportfolio.py
 python scripts/water_equilibrium/water_equil_dca_model.py
 ```
 
-## Ongoing Development
-This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/dominicflocco/DCA-BL).
-
 ## Support
 
 For support in using this software, submit an
