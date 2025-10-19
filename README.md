@@ -3,6 +3,13 @@ The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
 [A Heuristic for Complementarity Problems Using Difference of Convex Functions](https://doi.org/10.1287/ijoc.2024.0822) by S. Gabriel, D. Flocco, T. Boomsma, M. Schmidt and M. Lejeune. 
 
+## Cite
+To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
+
+https://doi.org/10.1287/ijoc.2024.0822
+
+https://doi.org/10.1287/ijoc.2024.0822.cd
+
 ## Description
 
 The repository contains the implementation of a heuristic for solving linear and nonlinear complementarity problems (LCPs and NCPs) using a difference of convex functions (DC) approach. The method is referred to as DCA-BL (Difference of Convex Function Algorithms for Bilinear Terms). All algorithms are implemented in Python. LCP problem instances are implemented using the Pyomo modeling language, while NCP instances are implemented using gurobipy. The heuristic is based on the DCA framework, which iteratively solves a sequence of convex approximations to the original non-convex problem.
